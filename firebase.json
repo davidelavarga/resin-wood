@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "pretty-wood",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
