@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "pretty-wood",
+    "site": "wood-epoxi",
     "public": "public",
     "ignore": [
       "firebase.json",
