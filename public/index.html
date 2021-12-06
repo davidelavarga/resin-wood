@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Resin Wood</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="static/style.css">
@@ -8,6 +7,15 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+    <title>Wood & Epoxi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
 <style>
     body,
     h1,
@@ -18,13 +26,13 @@
     h6 {
         font-family: "Lato", sans-serif
     }
-    
+
     .w3-bar,
     h1,
     button {
         font-family: "Montserrat", sans-serif
     }
-    
+
     .fa-anchor,
     .fa-coffee {
         font-size: 200px
@@ -39,28 +47,74 @@
             <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-brown"
                 href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
                     class="fa fa-bars"></i></a>
-            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Inicio</a>
+            <a href="https://www.instagram.com/woodepoxi/"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i
+                    class="fa fa-instagram w3-hover-opacity"></i></a>
+            <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
             <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a> -->
         </div>
 
         <!-- Navbar on small screens -->
         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+            <!-- <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
             <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
             <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a> -->
         </div>
     </div>
 
     <!-- Header -->
     <header class="w3-container w3-brown" id="header-bg">
-        <h1 class="w3-brown" id="title-content">START PAGE</h1>
+        <h1 class="w3-brown" id="title-content">Wood & Epoxi</h1>
     </header>
 
     <!-- First Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-32 w3-container">
+        <div class="w3-content">
+            <div id="myCarousel" class="w3-twothird carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="static/images/tablas-parrila/1-all.jpeg" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="static/images/tablas-parrila/2-front.jpeg" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="static/images/tablas-parrila/4-side.jpeg" style="width:100%;">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+
+            <div class="w3-third" style="padding-left: 32px;">
+                <h1>Tablas Porta Parrilla</h1>
+                <h5 class="w3-text-grey">Tablas para servir pequeñas parrillas en mesas de restaurantes</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Grid -->
     <div class="w3-row-padding w3-padding-32 w3-container">
         <div class="w3-content">
             <div class="w3-third">
@@ -74,29 +128,10 @@
         </div>
     </div>
 
-    <!-- Second Grid -->
-    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-        <div class="w3-content">
-            <div class="w3-twothird w3-center">
-                <img class="product" src="static/images/mina-halcon.jpeg" alt="Halcon">
-            </div>
-
-            <div class="w3-third">
-                <h1>Mina</h1>
-                <h5 class="w3-text-grey">Mina Pta ama</h5>
-            </div>
-        </div>
-    </div>
-
     <!-- Footer -->
     <footer class="w3-container w3-black w3-padding-64 w3-center w3-opacity">
         <div class="w3-xlarge w3-padding-32">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-snapchat w3-hover-opacity"></i>
-            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-            <i class="fa fa-twitter w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <a href="https://www.instagram.com/woodepoxi/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
         </div>
         <h5>Contacto: davidelavarga@gmail.com</h5>
     </footer>
